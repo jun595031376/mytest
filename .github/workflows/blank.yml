@@ -28,5 +28,5 @@ jobs:
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
-            cd /mnt/www/
-            mkdir testDir
+            sudo cd /mnt/www/
+            sudo mkdir testDir
